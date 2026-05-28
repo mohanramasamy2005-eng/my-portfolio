@@ -1,2 +1,9 @@
 <h1>Hello, World! </h1>
 <p>This is a simple HTML page with a heading and a paragraph.</p>
+<button id="changeText">Change Text</button>
+<script>
+  const button = document.getElementById('changeText');
+  button.addEventListener('click', function() {
+    document.querySelector('p').innerText = 'You clicked the button!';
+  });   
+</script>
