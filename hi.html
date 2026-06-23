@@ -1,12 +1,20 @@
-<h1 id="title">Hello</h1>
+<center>
 
-<a href="https://www.example.com">Visit Example.com</a>
-<button id="btn">Change</button>
+  <h1 id="title">Hello</h1>
+  <h1>
+    <a href="https://www.myntra.com">Myntra</a>
+  </h1>
+  <button id="btn">Click Me</button>
+  <p id="para">This is a paragraph.</p>
+</center>
 <script>
+  
   const title = document.getElementById("title")
   const btn = document.getElementById("btn")
+  const para = document.getElementById("para")
 
   btn.addEventListener("click", function() {
       title.innerText = "Vanakkam da"
+      para.innerText = "Paragraph updated!"
   })
 </script>
